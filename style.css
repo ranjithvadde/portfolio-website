@@ -107,6 +107,7 @@ nav{
 .typing-text{
     color: #7f00ff;
     margin: 15px 0;
+    min-height: 40px;
 }
 
 .hero-text p{
@@ -146,9 +147,12 @@ button:hover{
     gap: 20px;
 }
 
+.social-icons a{
+    color: white;
+}
+
 .social-icons i{
     font-size: 25px;
-    cursor: pointer;
     transition: 0.3s;
 }
 
